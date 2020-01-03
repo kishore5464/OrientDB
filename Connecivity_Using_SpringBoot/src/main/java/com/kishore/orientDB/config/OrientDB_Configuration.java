@@ -97,7 +97,6 @@ public class OrientDB_Configuration {
 
 		while (oResultSet.hasNext()) {
 			OResult members = oResultSet.next();
-			System.out.println(members.getProperty("name"));
 		}
 
 		oResultSet.close();
